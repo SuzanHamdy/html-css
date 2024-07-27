@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cad2c5;
+    color: #2f3e46;
+}
+main{
+    width: 80%;
+    margin: auto;
+    color: #2f3e46;
+}
+.flex{
+    display: flex;
+}
+                                                                              /* رأس الصفحة   */
+.header{
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 7px;
+    
+}
+                                                                 /* القائمة التنقلية- */
+nav ul li a{
+    text-decoration: none;
+    font-size: 28px;
+    border-radius: 20px;
+}
+nav ul li a:focus{
+    background-color:  #316cbb;
+    color: aliceblue;
+    font-size: 33px;
+    padding:0 7px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul{
+    width: 50%;
+    justify-content: center;
+    gap: 50px;
+    margin:auto ;
+
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 10px #354f52;
+} 
+                                                             /* الملف الشخصي  */
+ section.file{
+    width: 60%;
+    margin: auto;
+    }
+section h2{
+text-align: center;
+font-size: 28px;
+margin: 10px;
+padding: 10px;
+font-weight: bold;
+}
+section .line{
+width: 100px;
+height: 5px;
+background-color: #354f52;
+margin:-15px  auto;
+border-radius: 25%;
+transition: 1s;
+}
+section:hover .line{
+transform: scale( 3 ,1 );
+}
+section p{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+section ol li{
+    list-style-position:inside ; 
+    margin-left: 200px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+                                                                   /*  معرض الصور  */
+.img{
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+
+    
+}
+.img img{
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 10px #354f52;
+    transition: 1s;
+}
+.img img:hover{
+    transform: scale(0.8);
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+form{
+    margin: 5px 140px;
+    padding: 20px;
+}
+form input ,textarea{
+    width: 700px;
+    height: 40px;
+    margin: 4px 70px;
+    padding: 7px;
+    box-shadow: 5px 5px 10px 10px #425f62;
+    font-size: 20px;
+}
+
+/* //////////////////////////////////////////////////////////// */
+footer{
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+
+}
+footer div.flex{
+    justify-content: space-around;
+    gap: 20px;
+    color: #023e8a;
+    cursor: pointer;
+  
+}
+
+footer div.flex i{
+    padding: 5px;
+    transition: 0.6s;
+}
+
+footer div.flex i:hover{
+    color:  #316cbb;
+    font-size: 33px;
+}
+
+
+
+
+
